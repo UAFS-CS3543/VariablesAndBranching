@@ -13,7 +13,7 @@ ch = getchar();
 ```
 
 ### scanf()
-Reads different types of input from stdin(keyboard).  The type of input that you want to read is indicated by the format specifier(%_).  Use the proper format specifier for the type of data you are reading.
+Reads different types of input from stdin(keyboard).  The type of input that you want to read is indicated by the format specifier(%c).  Use the proper format specifier for the type of data you are reading. The following example accomplishes the same task as the getchar() example.
 
 Specifier | Type of Data
 --------- | ------------
@@ -24,6 +24,47 @@ Specifier | Type of Data
 ```cpp
 char ch;
 scanf("%c",&ch);
+
+The following code example defines a variable of type **int** named **value** and reads the integer value from stdin(keyboard) and stores it into the variable, **value**.
+
+```cpp
+int value;
+scanf("%d",&value);
+```
+
+## Output Functions
+These functions write data to the output device (screen).  The type of the variable (char, int, double) dictates the amuount of memory in bytes reserved to store the data, and the format for the data (Ascii Character, Binary, Twos-Complement Binary).  The two output functions that we have used or will use are:
+
+### putchar()
+This function writes an ASCII character stored in a memory variable to the screen.  Here we have added to the example code to output the character stored in **ch**. The program uses putchar(ch) to write the character stored in the variable **ch** to the screen.
+
+```cpp
+char ch;
+ch = getchar();
+
+putchar(ch);
+```
+
+### printf("format string", variable list)
+Allows printing of formatted output using format specifiers for each of the variables in the output.  The type of output that you desire is indicated by the format specifier(%c).  Use the proper format specifier for the type of data you are writing. In the example we have added printf() for output.
+
+Specifier | Type of Data
+--------- | ------------
+%c | Character (char)
+%d | Integer (int)
+%5.2f | Floating-Point (double)
+
+```cpp
+char ch;
+scanf("%c",&ch);
+printf("The character stored in ch is %c\n",ch);
+
+The following code example defines a variable of type **int** named **value** and reads the integer value from stdin(keyboard) and stores it into the variable, **value**. It then displays the value using printf().
+
+```cpp
+int value;
+scanf("%d",&value);
+printf("The value is %d\n",value);
 ```
 
 ## Output Functions
