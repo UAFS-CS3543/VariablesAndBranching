@@ -7,7 +7,7 @@ These functions read data from the input device and store the data in variables 
 ### getchar()
 Reads a character from stdin(keyboard) and stores it in a variable of type char.
 
-...C
+...cpp
 char ch;
 ch = getchar();
 ...
@@ -21,7 +21,7 @@ Specifier | Type of Data
 %d | Integer (int)
 %f | Floating-Point (double)
 
-...c
+...cpp
 char ch;
 scanf("%c",&ch);
 ...
