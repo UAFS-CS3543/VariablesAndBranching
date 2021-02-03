@@ -8,8 +8,8 @@ These functions read data from the input device and store the data in variables 
 Reads a character from stdin(keyboard) and stores it in a variable of type char.
 
 ...c
-    char ch;
-    ch = getchar();
+char ch;
+ch = getchar();
 ...
 
 ### scanf()
@@ -17,13 +17,13 @@ Reads different types of input from stdin(keyboard).  The type of input that you
 
 Specifier | Type of Data
 --------- | ------------
-    %c | Character (char)
-    %d | Integer (int)
-    %f | Floating-Point (double)
+%c | Character (char)
+%d | Integer (int)
+%f | Floating-Point (double)
 
 ...c
-    char ch;
-    scanf("%c",&ch);
+char ch;
+scanf("%c",&ch);
 ...
 
 ## Output Functions
