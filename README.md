@@ -78,37 +78,36 @@ printf("The value is %d\n",value);
 Write a program named **prob1.c**, that will read an integer from the keyboard and display the output like the following example:
 
 ##### Example 1
-
+```
 Enter a number: 67     
 The number entered was 67.
-
+```
 
 ## Problem Two
 Write a program named **prob2.c**, that will read an two integers from the keyboard and display the output like the following example:
 
 ##### Example 1
-
+```
 Enter the value for x: 5
 Enter the value for y: 9
 
 The value for x is 5 and the value for y is 9
-
+```
 
 ## Problem Three
 Write a program named **prob2.c**, that will read an two integers from the keyboard and determine which one is larger and display the output like the following example:
 
 ##### Example 1
-
+```
 Enter the value for x: 5
-
 Enter the value for y: 9
 
 The value in y is greater than the value in x.
-
+```
 ##### Example 2
-
+```
 Enter the value for x: 55
 Enter the value for y: 8
 
 The value in y is not greater than the value in x.
-
+```
