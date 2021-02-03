@@ -100,6 +100,7 @@ Write a program named **prob2.c**, that will read an two integers from the keybo
 ##### Example 1
 
 Enter the value for x: 5
+
 Enter the value for y: 9
 
 The value in y is greater than the value in x.
