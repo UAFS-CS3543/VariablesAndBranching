@@ -7,7 +7,7 @@ These functions read data from the input device and store the data in variables 
 ### getchar()
 Reads a character from stdin(keyboard) and stores it in a variable of type char.
 
-...c
+...C
 char ch;
 ch = getchar();
 ...
