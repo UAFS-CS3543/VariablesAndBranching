@@ -24,6 +24,7 @@ Specifier | Type of Data
 ```cpp
 char ch;
 scanf("%c",&ch);
+```
 
 The following code example defines a variable of type **int** named **value** and reads the integer value from stdin(keyboard) and stores it into the variable, **value**.
 
@@ -58,6 +59,7 @@ Specifier | Type of Data
 char ch;
 scanf("%c",&ch);
 printf("The character stored in ch is %c\n",ch);
+```
 
 The following code example defines a variable of type **int** named **value** and reads the integer value from stdin(keyboard) and stores it into the variable, **value**. It then displays the value using printf().
 
@@ -66,5 +68,3 @@ int value;
 scanf("%d",&value);
 printf("The value is %d\n",value);
 ```
-
-## Output Functions
